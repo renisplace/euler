@@ -1,15 +1,21 @@
+import Annotations.problemDeff;
+
+@problemDeff(
+	number = 2,
+	dateSolved = "9/7/16",
+	deff = "By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.",
+	notes = ""
+)
 
 public class Problem2 {
-	public static int calculate(int t){
-		
+	public static long calculate(){
+		long t = 4000000;
 		if (t<2) return 0;
 		
 		int i=1; //0 term
 		int j=2; //first term
 		int s=2; 
-		int sum=0; 
-		
-
+		long sum=0; 
 		
 		do{
 			//increment the total sum
@@ -25,7 +31,6 @@ public class Problem2 {
 			i = j;
 			j = s;
 		} while (s <= t);
-		
 		
 		return sum;
 	}

@@ -1,10 +1,19 @@
+import Annotations.problemDeff;
+
+@problemDeff(
+	number = 1,
+	dateSolved = "9/7/16",
+	deff = "Find the sum of all the multiples of 3 or 5 below 1000 ",
+	notes = ""
+)
 
 public class Problem1 {
 	
-	public static int calculate(int t){
-		int i,s3,s5;
-		s3=0;
-		s5=0;
+	public static long calculate(){
+		long t = 1000;
+		int i;
+		long s3=0;
+		long s5=0;
 		
 		//sum of numbers divisible by 3
 		for (i=3; i<t; i+=3){
