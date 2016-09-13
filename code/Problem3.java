@@ -3,11 +3,10 @@ import Annotations.*;
 
 @problemDeff(
 		number = 3,
-		dateSolved = "9/8/16",
+		dateSolved = "9/11/16",
 		deff = "Find the largest prime factor of 600851475143",
 		notes = "Every non-prime number can be represented by a product of prime numbers"
 		)
-
 public class Problem3 {
 	
 	public static long calculate(){

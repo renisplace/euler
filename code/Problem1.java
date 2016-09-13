@@ -1,4 +1,4 @@
-import Annotations.problemDeff;
+import Annotations.*;
 
 @problemDeff(
 	number = 1,
@@ -6,7 +6,6 @@ import Annotations.problemDeff;
 	deff = "Find the sum of all the multiples of 3 or 5 below 1000 ",
 	notes = ""
 )
-
 public class Problem1 {
 	
 	public static long calculate(){

@@ -1,4 +1,4 @@
-import Annotations.problemDeff;
+import Annotations.*;
 
 @problemDeff(
 	number = 2,
@@ -6,10 +6,10 @@ import Annotations.problemDeff;
 	deff = "By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.",
 	notes = ""
 )
-
 public class Problem2 {
 	public static long calculate(){
 		long t = 4000000;
+		//long t = 89;
 		if (t<2) return 0;
 		
 		int i=1; //0 term
