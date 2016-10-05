@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 	
 		int i, n;
-		n=10;	// number of problems
+		n=0;	// number of problems
 		Method m; 
 		Object r; 
 		
@@ -30,14 +30,14 @@ public class Main {
 		}
 		
 		//test
-		/*long startTime = System.currentTimeMillis();
+		long startTime = System.currentTimeMillis();
 		
-		System.out.println("Problem9  .. " + Problem9.calculate()); 
+		System.out.println("Problem101  .. " + Problem15.calculate()); 
 		//System.out.println("isPrime  .. " + SharedFunctions.isPrime(600851475143L));
 		
 		long endTime = System.currentTimeMillis();
 		long totalTime = endTime - startTime;
-		System.out.println(totalTime);*/
+		System.out.println(totalTime);
 		
 		
 	}
