@@ -1,17 +1,18 @@
-import java.util.ArrayList;
-import java.util.List;
 import Annotations.*;
-import java.lang.Math;
 
 @problemDeff(
-		number = 9,
+		number = 15,
 		dateSolved = "10/3/16",
-		deff = "Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, there are exactly 6 routes to the bottom right corner.",
+		deff = "Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, "
+				+ "there are exactly 6 routes to the bottom right corner. Find the number of routes in a 20x20 grid",
 		notes = ""
 	)
 public class Problem15 {
-	protected static long p;
-	public static long calculate(){
+	protected long p;
+	public long calculate(){
+		
+		// result for N=20: .. 137846528820
+		// ran 1806236
 		
 		//grid height/width
 		int N = 20; 
@@ -25,7 +26,7 @@ public class Problem15 {
 		return p;
 	}
 	
-	public static void numPaths(int i, int j, int n){
+	public void numPaths(int i, int j, int n){
 		//System.out.println("(" + i + "," + j + ")");
 		if (i==n && j==n){
 			return;

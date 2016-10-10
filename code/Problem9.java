@@ -3,13 +3,13 @@ import java.lang.Math;
 
 @problemDeff(
 	number = 9,
-	dateSolved = "9/11/16",
+	dateSolved = "9/12/16",
 	deff = "Find the product (a*b*c) of the only Pythagorean triplet (sq(a) + sq(b) = sq(c) and a<b<c) for which a+b+c=1000",
 	notes = ""
 )
 public class Problem9 {
 
-	public static long calculate(){
+	public long calculate(){
 		
 		//int t = 12; // 3+4+5
 		int t = 1000;
@@ -52,7 +52,7 @@ public class Problem9 {
 	}
 	
 	
-	public static boolean validateEquasion(int a, int b, int limit){
+	public boolean validateEquasion(int a, int b, int limit){
 		if (2*Math.pow(a,2) + 2*Math.pow(b,2) + 2*(a+b)*(Math.sqrt(Math.pow(a,2)+Math.pow(b,2))) + 2*a*b == Math.pow(limit, 2)) return true;
 		return false;
 	}
