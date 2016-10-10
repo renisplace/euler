@@ -9,7 +9,7 @@ import Annotations.*;
 		)
 public class Problem3 {
 	
-	public long calculate(){
+	public static long calculate(){
 
 		long t = 600851475143L;  // answer 6857, takes 3sec
 	
@@ -41,7 +41,7 @@ public class Problem3 {
 
 
 	// very slow or very memory abusive solutions .. there to remind me to think!
-	public long calculate1(){
+	public static long calculate1(){
 
 		long t = 600851475143L; 
 

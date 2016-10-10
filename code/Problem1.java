@@ -8,7 +8,7 @@ import Annotations.*;
 )
 public class Problem1 {
 	
-	public long calculate(){
+	public static long calculate(){
 		long t = 1000;
 		int i;
 		long s3=0;
