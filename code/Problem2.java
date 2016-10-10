@@ -7,7 +7,7 @@ import Annotations.*;
 	notes = ""
 )
 public class Problem2 {
-	public static long calculate(){
+	public long calculate(){
 		long t = 4000000;
 		//long t = 89;
 		if (t<2) return 0;
